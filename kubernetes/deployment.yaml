@@ -36,7 +36,7 @@ spec:
             topologyKey: "kubernetes.io/hostname"
       containers:
         - name: openvpn-connector
-          image: rafayak/ovpn-connector:latest
+          image: ghcr.io/gompu123/openvpn-cloud-connector:latest
           ports:
             - containerPort: 443
               name: https
